@@ -1,0 +1,17 @@
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-font-size: 13px;
+}
+.server-root { -fx-background-color: #f4f6f8; }
+.title { -fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #1f2933; }
+.section-title { -fx-font-weight: bold; -fx-text-fill: #52606d; }
+.status-label { -fx-text-fill: #52606d; }
+.footer-label { -fx-text-fill: #52606d; }
+.log-view, .users-view {
+    -fx-background-color: white;
+    -fx-border-color: #d9e2ec;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+.log-view .list-cell { -fx-font-family: "Consolas", "Monospaced"; -fx-font-size: 12px; }
+.users-view .list-cell { -fx-padding: 8 10 8 10; -fx-font-weight: bold; }
