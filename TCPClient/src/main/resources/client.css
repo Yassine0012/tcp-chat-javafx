@@ -1,0 +1,53 @@
+.root {
+    -fx-font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    -fx-font-size: 13px;
+}
+.login-root, .chat-root { -fx-background-color: #f4f6f8; }
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.12), 14, 0, 0, 3);
+}
+.title { -fx-font-size: 22px; -fx-font-weight: bold; -fx-text-fill: #1f2933; }
+.muted { -fx-text-fill: #7b8794; }
+.error-text { -fx-text-fill: #c0392b; }
+.online-label { -fx-text-fill: #1e8449; -fx-font-weight: bold; }
+
+.readonly-badge {
+    -fx-background-color: #f5b041;
+    -fx-text-fill: #4a3000;
+    -fx-font-weight: bold;
+    -fx-padding: 3 8 3 8;
+    -fx-background-radius: 10;
+}
+
+.primary-button {
+    -fx-background-color: #2f80ed;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.primary-button:hover { -fx-background-color: #1f6fdc; }
+.primary-button:disabled { -fx-opacity: 0.5; }
+
+.danger-button {
+    -fx-background-color: #e74c3c;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+}
+.danger-button:hover { -fx-background-color: #cf3a2a; }
+
+.message-list {
+    -fx-background-color: white;
+    -fx-border-color: #d9e2ec;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+.message-list .list-cell { -fx-padding: 6 10 6 10; -fx-background-color: transparent; }
+.message-list .msg-own { -fx-background-color: #e3f0ff; -fx-text-fill: #12355f; }
+.message-list .msg-other { -fx-text-fill: #1f2933; }
+.message-list .msg-system { -fx-text-fill: #7b8794; -fx-font-style: italic; }
+.message-list .msg-error { -fx-text-fill: #c0392b; -fx-font-weight: bold; }
